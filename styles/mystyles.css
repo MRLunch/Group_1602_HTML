@@ -1,5 +1,5 @@
 body {
-    padding-top: 1em;
+    padding-top: 0em;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: white;
     background-color: #062233
@@ -57,7 +57,7 @@ address {
 }
 
 body {
-    background-image: url(Background2.jpg);
+    background-image: url('../images/Background3.jpg');
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
