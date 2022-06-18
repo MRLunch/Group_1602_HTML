@@ -1,37 +1,48 @@
 body {
-    padding-left: 15em;
     padding-top: 1em;
-    padding-right: 15em;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: white;
     background-color: #062233
 }
-	 ul.navbar {
+
+ul.navbar {
     list-style-type: none;
     padding: 0;
     margin: 0;
-	position: absolute;
+    position: absolute;
     top: 2em;
     left: 1em;
-    width: 10em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-		ul.navbar li {
+    width: 10em
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
+}
+
+ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue }
-  a:visited {
-    color: purple }
-	address {
+    border-right: 1em solid black
+}
+
+ul.navbar a {
+    text-decoration: none
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+address {
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: thin dotted
+}
 
 
 
@@ -44,42 +55,45 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-image: url(Background2.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
-.menu-bar
-{
+
+.menu-bar {
     background: #152238;
     text-align: center;
 }
-.menu-bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #fff
-}
-.menu-bar ul li
-{
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
-}
-.menu-bar ul li a
-{
-    text-decoration: none;
-    color: #fff;
-}
-    .active, .menu-bar ul li:hover {
-        background: #65748e;
-        border-radius: 3px;
+
+    .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+        color: #fff
     }
-.sub-menu1
-{
+
+        .menu-bar ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+
+            .menu-bar ul li a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .active, .menu-bar ul li:hover {
+                background: #65748e;
+                border-radius: 3px;
+            }
+
+.sub-menu1 {
     display: none;
 }
+
 .menu-bar ul li:hover .sub-menu1 {
     display: block;
     position: absolute;
@@ -87,27 +101,28 @@ body {
     margin-top: 15px;
     margin-left: -15px;
 }
-.menu-bar ul li:hover .sub-menu1 ul
-{
-   display: block;
-   margin: 10px;
-}
-.menu-bar ul li:hover .sub-menu1 ul li
-{
-    width: 150px;
-    padding: 15px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-.menu-bar ul li:hover .sub-menu1 ul li:last-child
-{
-    border-bottom: none;
-}
-.menu-bar ul li:hover .sub-menu1 ul li a:hover {
-color: #65748e;
-}
+
+    .menu-bar ul li:hover .sub-menu1 ul {
+        display: block;
+        margin: 10px;
+    }
+
+        .menu-bar ul li:hover .sub-menu1 ul li {
+            width: 150px;
+            padding: 15px;
+            border-bottom: 1px dotted #fff;
+            background: transparent;
+            border-radius: 0;
+            text-align: left;
+        }
+
+            .menu-bar ul li:hover .sub-menu1 ul li:last-child {
+                border-bottom: none;
+            }
+
+            .menu-bar ul li:hover .sub-menu1 ul li a:hover {
+                color: #65748e;
+            }
 
 h2 {
     font-family: Segoe Print;
@@ -116,6 +131,7 @@ h2 {
     padding-right: 100px;
     padding-top: 60px;
 }
+
 h4 {
     font-family: 'Segoe Print';
     color: white;
