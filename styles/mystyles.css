@@ -81,12 +81,6 @@ h2 {
     padding-top: 60px;
 }
 
-h3 {
-    font-family: 'Segoe Print';
-    color: white;
-    padding-left: 100px;
-    padding-right: 100px;
-}
 
 h4 {
     font-family: 'Segoe Print';
@@ -95,7 +89,7 @@ h4 {
     padding-right: 100px;
 }
 
-ul {
+li {
     padding-left: 100px;
     padding-right: 100px;
 }
